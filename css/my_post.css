@@ -1,0 +1,22 @@
+#navbar{
+	background-color: #096e7d;
+}
+
+#content_wrapper{
+	background-color: #096e7d1f; 
+	margin-top: 50px; 
+	border-radius: 5px;
+	padding: 5px;
+}
+
+#title{
+	background-color: #17a2b8; 
+	padding: 5px;
+	border-radius: 5px; 
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+#closeBtn{
+	width: 100%;
+}

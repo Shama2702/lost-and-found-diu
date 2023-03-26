@@ -1,0 +1,164 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/background.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #cccccc;
+
+	/*background-color: red;
+    background-image: linear-gradient(to right, blue , yellow);*/
+}
+
+/*#viewPage{
+	width: 900px;
+	height: 400px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding: 80px 40px;
+	box-sizing: border-box;
+
+
+	overflow: hidden;
+	background: rgba(0,0,0,.01);
+}*/
+/*
+#leftContent, #rightContent{
+	display: inline-block;
+}*/
+
+#leftContent{
+	width: 300px;
+	margin: auto;
+	margin-bottom: 50px;
+	
+}
+#rightContent{
+	margin: auto;
+	width: 350px;
+	padding: 30px;
+	border-radius: 10px;
+	background: rgba(255,255,255,.3);
+}
+
+#leftContent i,
+#leftContent p,
+#leftContent h1{
+	text-align: center;
+	color: white;
+	font-style: bold;
+}
+#leftContent p i{
+	font-size: 50px;
+}
+#leftContent p{
+	margin-bottom: 10px;
+}
+#aboutUsBtn{
+	padding: 10px 20px;
+	margin: 0 auto;
+    display: block;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+#aboutUsBtn:hover{
+	cursor: pointer;
+}
+
+#content_wrapper{
+	margin-top: 10%;
+}
+
+/*right contents are starting from here*/
+/*now login from starting from here*/
+#loginForm{
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+	margin: auto;
+}
+
+#loginForm input{
+	width: 100%;
+	padding: 5px;
+	margin: 5px 0px;
+
+	border: 2px solid black;
+    border-radius: 10px;
+}
+
+#loginForm input[type="submit"]{
+	background: black;
+	border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+}
+#loginForm input[type="submit"]:hover{
+	cursor: pointer;
+}
+
+#loginForm p{
+	margin-top: 10px;
+	color: white;
+}
+
+#loginForm p span:hover{
+	cursor: pointer;
+	color: black;
+}
+/*login form end from here*/
+
+/*now registation from starting from here*/
+.loginFormVisibility{
+	display: block;
+}
+
+#regForm{
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+	margin: auto;
+}
+
+#regForm input{
+	width: 100%;
+	padding: 5px;
+	margin: 5px 0px;
+
+	border: 2px solid black;
+    border-radius: 10px;
+}
+
+#regForm input[type="submit"]{
+	
+	background: black;
+	border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+}
+#regForm input[type="submit"]:hover{
+	cursor: pointer;
+}
+
+#regForm p{
+	margin-top: 10px;
+	color: white;
+}
+
+#regForm p span:hover{
+	cursor: pointer;
+	color: black;
+}
+
+.regFormVisibility{
+	display: none;
+}
+
+/*reg form end from here*/

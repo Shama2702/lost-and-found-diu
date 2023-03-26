@@ -1,0 +1,17 @@
+#navbar{
+	background-color: #096e7d;
+}
+#initial_title{
+	margin-bottom: 50px;
+}
+#err_title{
+	margin-bottom: 50px; 
+	color: red;
+}
+#success_title{
+	margin-bottom: 50px; 
+	color: green;
+}
+#submitBtn{
+	width: 100%;
+}
